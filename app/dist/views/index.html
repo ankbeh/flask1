@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>{% assets "index_css" %}
+      <link rel="stylesheet" href="{{ ASSET_URL }}" />
+    {% endassets %}
+  </head>
+  <body>
+    <h1>{{title}}</h1>{% assets "index_js" %}
+      <script type="text/javascript" src="{{ ASSET_URL }}" ></script>
+    {% endassets %}
+  </body>
+</html>
