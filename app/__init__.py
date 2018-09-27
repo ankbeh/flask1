@@ -23,7 +23,7 @@ bundles = {
         'css/common.css',
         'css/index.css',
         output='../dist/static/css/index.css'
-    )
+    ),
     "index_images" : Bundle(
         #'images/logo.ico',
         #output="../dist/static/images/"
